@@ -1,0 +1,160 @@
+{
+  "uncropped": {
+    "pairs": 37250,
+    "both_right": 35279,
+    "corrected_by_sesad": 1109,
+    "reversed_by_sesad": 250,
+    "both_reversed": 612,
+    "tied": 0,
+    "corrected_with_smaller_effect_numerator": 972,
+    "represented_categories": 12,
+    "center_ap_macro_pct": {
+      "EFF": 85.44884252349947,
+      "SESAD": 89.38768018472454
+    },
+    "center_ap_strata": 12,
+    "class_comparison": [
+      {
+        "class": "airplane",
+        "same_slot_net_gain_pp": 1.4705882352941178,
+        "projected_ap_gain_pp": 8.341274283956418
+      },
+      {
+        "class": "candybar",
+        "same_slot_net_gain_pp": -0.477326968973747,
+        "projected_ap_gain_pp": 20.65708645535227
+      },
+      {
+        "class": "car",
+        "same_slot_net_gain_pp": 0.6538321830730113,
+        "projected_ap_gain_pp": 20.669834711548223
+      },
+      {
+        "class": "chicken",
+        "same_slot_net_gain_pp": 7.314064152273528,
+        "projected_ap_gain_pp": 10.007177061351708
+      },
+      {
+        "class": "diamond",
+        "same_slot_net_gain_pp": 0.5182341650671785,
+        "projected_ap_gain_pp": 16.721984877516327
+      },
+      {
+        "class": "duck",
+        "same_slot_net_gain_pp": 2.219873150105708,
+        "projected_ap_gain_pp": 32.969015008714706
+      },
+      {
+        "class": "fish",
+        "same_slot_net_gain_pp": 0.736105999263894,
+        "projected_ap_gain_pp": 32.284823034485484
+      },
+      {
+        "class": "gemstone",
+        "same_slot_net_gain_pp": 3.020408163265306,
+        "projected_ap_gain_pp": 19.547890591067514
+      },
+      {
+        "class": "seahorse",
+        "same_slot_net_gain_pp": 1.3508371385083713,
+        "projected_ap_gain_pp": 7.1629881475195
+      },
+      {
+        "class": "shell",
+        "same_slot_net_gain_pp": 1.40625,
+        "projected_ap_gain_pp": 9.535536134747192
+      },
+      {
+        "class": "starfish",
+        "same_slot_net_gain_pp": 0.48228140071293774,
+        "projected_ap_gain_pp": 0.3851874783628251
+      },
+      {
+        "class": "toffees",
+        "same_slot_net_gain_pp": 8.075904677846426,
+        "projected_ap_gain_pp": 25.932495855599573
+      }
+    ],
+    "spearman_rank_gain_vs_projected_ap_gain": 0.2027972027972028,
+    "accepted_scans_in_scope": 587
+  },
+  "cropped": {
+    "pairs": 35646,
+    "both_right": 33867,
+    "corrected_by_sesad": 1009,
+    "reversed_by_sesad": 233,
+    "both_reversed": 537,
+    "tied": 0,
+    "corrected_with_smaller_effect_numerator": 856,
+    "represented_categories": 12,
+    "center_ap_macro_pct": {
+      "EFF": 85.27515513435647,
+      "SESAD": 89.0892357962864
+    },
+    "center_ap_strata": 12,
+    "class_comparison": [
+      {
+        "class": "airplane",
+        "same_slot_net_gain_pp": 0.33641715727502103,
+        "projected_ap_gain_pp": 3.244288235543374
+      },
+      {
+        "class": "candybar",
+        "same_slot_net_gain_pp": 0.3225806451612903,
+        "projected_ap_gain_pp": 19.42021318554851
+      },
+      {
+        "class": "car",
+        "same_slot_net_gain_pp": 0.6266126059712496,
+        "projected_ap_gain_pp": 18.44114105476881
+      },
+      {
+        "class": "chicken",
+        "same_slot_net_gain_pp": 7.694053563322742,
+        "projected_ap_gain_pp": 10.469116315003864
+      },
+      {
+        "class": "diamond",
+        "same_slot_net_gain_pp": 0.5018587360594795,
+        "projected_ap_gain_pp": 10.1030580863263
+      },
+      {
+        "class": "duck",
+        "same_slot_net_gain_pp": 3.7790697674418605,
+        "projected_ap_gain_pp": 34.424049637203105
+      },
+      {
+        "class": "fish",
+        "same_slot_net_gain_pp": 0.41353383458646614,
+        "projected_ap_gain_pp": 31.103926508869726
+      },
+      {
+        "class": "gemstone",
+        "same_slot_net_gain_pp": 1.588785046728972,
+        "projected_ap_gain_pp": 22.18371952559589
+      },
+      {
+        "class": "seahorse",
+        "same_slot_net_gain_pp": 1.6387121650279546,
+        "projected_ap_gain_pp": 8.948836120102499
+      },
+      {
+        "class": "shell",
+        "same_slot_net_gain_pp": 1.436130007558579,
+        "projected_ap_gain_pp": 11.478721988298707
+      },
+      {
+        "class": "starfish",
+        "same_slot_net_gain_pp": 0.5491272798587958,
+        "projected_ap_gain_pp": -3.8423365152724043
+      },
+      {
+        "class": "toffees",
+        "same_slot_net_gain_pp": 8.270676691729323,
+        "projected_ap_gain_pp": 29.75681951085358
+      }
+    ],
+    "spearman_rank_gain_vs_projected_ap_gain": 0.25874125874125875,
+    "accepted_scans_in_scope": 579
+  }
+}

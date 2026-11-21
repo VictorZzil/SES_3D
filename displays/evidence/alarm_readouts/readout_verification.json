@@ -1,0 +1,15 @@
+{
+  "fixed_partitions_checked": 1,
+  "repeated_partitions_checked": 200,
+  "readout_repeat_rows_recomputed": 600,
+  "all_repeats_keep_hardware_variants_together": true,
+  "anomaly_scored_count_in_every_repeat": 593,
+  "normal_and_anomalous_rejection_counts_reconciled": true,
+  "hashes": {
+    "readout_scores.csv": "62973c496b669b551159cdc650fa93e121358bdaf0d4cdfd366e190e2f67bc68",
+    "readout_summary.json": "fc61d5b76e52c3839975f616be9c99039a9f5c48624c15c932646990333f2cea",
+    "readout_fixed_thresholds.json": "2ed47dde6e9eefb581c4c621ed0c971a0e00ff6241a8468e122d218b8624febc",
+    "readout_repeat_metrics.csv": "d16db38a3a515f5310df7b5474dd6687a362650fde86c680c36d3ebd37e6cc82",
+    "readout_repeat_calibration_groups.csv": "613f4b788725f10af2e45b53b9697baad34364c8f1caabb4548dc11bbe751732"
+  }
+}

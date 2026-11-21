@@ -1,0 +1,23 @@
+{
+  "platform": "Windows",
+  "python_version": "3.12.14",
+  "repetitions": 21,
+  "batches_per_repetition": 1000,
+  "calibration_scores": 280,
+  "scored_evaluation_scans": 892,
+  "timed_scope": "In-memory threshold fit and batch comparison after scoring and registration. Excludes I/O.",
+  "arms": {
+    "COSSAD_NATIVE": {
+      "fit_ms_all_classes": 0.007716499996604398,
+      "apply_ns_per_scored_scan": 42.966928249125836
+    },
+    "POINT_MAX": {
+      "fit_ms_all_classes": 0.007872100002714433,
+      "apply_ns_per_scored_scan": 43.46894617521333
+    },
+    "SPATIAL_EVIDENCE": {
+      "fit_ms_all_classes": 0.007798099992214702,
+      "apply_ns_per_scored_scan": 42.30885649770248
+    }
+  }
+}

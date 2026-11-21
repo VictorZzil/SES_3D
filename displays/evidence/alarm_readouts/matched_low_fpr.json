@@ -1,0 +1,351 @@
+{
+  "source_sha256": {
+    "fixed_split.csv": "217d6bfadacff9c8c637f9f40181ab4a3b8acb71669a36f1ab147433063f94a5",
+    "readout_scores.csv": "62973c496b669b551159cdc650fa93e121358bdaf0d4cdfd366e190e2f67bc68"
+  },
+  "retrospective_roc": "Macro-average of class ROC recall evaluated at common actual FPRs. Linear interpolation uses adjacent empirical operating points. The empirical cap reports the highest observed recall without crossing the cap. Evaluation labels define both curves.",
+  "bootstrap": "2000 paired category-stratified object-group resamples, conditional on accepted scans; same weights across all three arms. Descriptive percentile intervals.",
+  "crop_shift": "Fit thresholds using accepted uncropped normal scans in the original calibration groups; evaluate matching uncropped and cropped variants of separate held-out objects. The paired scan variants come from the same benchmark and are not a new physical acquisition batch.",
+  "all_accepted": {
+    "0.01": {
+      "by_readout": {
+        "COSSAD_NATIVE": {
+          "empirical_recall_at_cap": 0.6069499237659616,
+          "equal_fpr_recall": 0.6069499237659616,
+          "empirical_actual_fpr": 0.0
+        },
+        "POINT_MAX": {
+          "empirical_recall_at_cap": 0.5646262149799887,
+          "equal_fpr_recall": 0.5646262149799887,
+          "empirical_actual_fpr": 0.0
+        },
+        "SPATIAL_EVIDENCE": {
+          "empirical_recall_at_cap": 0.7179283400038118,
+          "equal_fpr_recall": 0.718779034448256,
+          "empirical_actual_fpr": 0.0
+        }
+      },
+      "spatial_minus_comparator": {
+        "COSSAD_NATIVE": {
+          "recall_gain": 0.1118291106822944,
+          "group_bootstrap_percentile_95": [
+            0.01247008958752476,
+            0.16890755211167105
+          ]
+        },
+        "POINT_MAX": {
+          "recall_gain": 0.1541528194682673,
+          "group_bootstrap_percentile_95": [
+            0.07042109397321826,
+            0.19336211812183823
+          ]
+        }
+      }
+    },
+    "0.05": {
+      "by_readout": {
+        "COSSAD_NATIVE": {
+          "empirical_recall_at_cap": 0.7301506813417191,
+          "equal_fpr_recall": 0.7301506813417191,
+          "empirical_actual_fpr": 0.03957573161747652
+        },
+        "POINT_MAX": {
+          "empirical_recall_at_cap": 0.68784948542024,
+          "equal_fpr_recall": 0.6886307354202401,
+          "empirical_actual_fpr": 0.03957573161747652
+        },
+        "SPATIAL_EVIDENCE": {
+          "empirical_recall_at_cap": 0.8160779969506385,
+          "equal_fpr_recall": 0.8168592469506386,
+          "empirical_actual_fpr": 0.037764137414577965
+        }
+      },
+      "spatial_minus_comparator": {
+        "COSSAD_NATIVE": {
+          "recall_gain": 0.08670856560891949,
+          "group_bootstrap_percentile_95": [
+            -0.011267079369511967,
+            0.12840769957536913
+          ]
+        },
+        "POINT_MAX": {
+          "recall_gain": 0.1282285115303985,
+          "group_bootstrap_percentile_95": [
+            0.049871629373691384,
+            0.17860027534970652
+          ]
+        }
+      }
+    },
+    "0.1": {
+      "by_readout": {
+        "COSSAD_NATIVE": {
+          "empirical_recall_at_cap": 0.8062439251000572,
+          "equal_fpr_recall": 0.8062439251000572,
+          "empirical_actual_fpr": 0.09455744614093597
+        },
+        "POINT_MAX": {
+          "empirical_recall_at_cap": 0.7345670144844673,
+          "equal_fpr_recall": 0.7345670144844673,
+          "empirical_actual_fpr": 0.09095279497814525
+        },
+        "SPATIAL_EVIDENCE": {
+          "empirical_recall_at_cap": 0.8552576472269867,
+          "equal_fpr_recall": 0.8552576472269867,
+          "empirical_actual_fpr": 0.09455744614093597
+        }
+      },
+      "spatial_minus_comparator": {
+        "COSSAD_NATIVE": {
+          "recall_gain": 0.04901372212692956,
+          "group_bootstrap_percentile_95": [
+            -0.018726433972819173,
+            0.10010847875576018
+          ]
+        },
+        "POINT_MAX": {
+          "recall_gain": 0.12069063274251945,
+          "group_bootstrap_percentile_95": [
+            0.03434766048675341,
+            0.1542542821450535
+          ]
+        }
+      }
+    }
+  },
+  "holdout_accepted": {
+    "0.01": {
+      "by_readout": {
+        "COSSAD_NATIVE": {
+          "empirical_recall_at_cap": 0.6517479035639413,
+          "equal_fpr_recall": 0.6517479035639413,
+          "empirical_actual_fpr": 0.0
+        },
+        "POINT_MAX": {
+          "empirical_recall_at_cap": 0.6246262149799887,
+          "equal_fpr_recall": 0.6246262149799887,
+          "empirical_actual_fpr": 0.0
+        },
+        "SPATIAL_EVIDENCE": {
+          "empirical_recall_at_cap": 0.7679283400038118,
+          "equal_fpr_recall": 0.7683970900038117,
+          "empirical_actual_fpr": 0.0
+        }
+      },
+      "spatial_minus_comparator": {
+        "COSSAD_NATIVE": {
+          "recall_gain": 0.11664918643987043,
+          "group_bootstrap_percentile_95": [
+            0.009479742510382421,
+            0.15341396368073948
+          ]
+        },
+        "POINT_MAX": {
+          "recall_gain": 0.14377087502382302,
+          "group_bootstrap_percentile_95": [
+            0.039894441840698756,
+            0.17416291060155098
+          ]
+        }
+      }
+    },
+    "0.05": {
+      "by_readout": {
+        "COSSAD_NATIVE": {
+          "empirical_recall_at_cap": 0.7796964932342291,
+          "equal_fpr_recall": 0.7796964932342291,
+          "empirical_actual_fpr": 0.04045183211849879
+        },
+        "POINT_MAX": {
+          "empirical_recall_at_cap": 0.690008576329331,
+          "equal_fpr_recall": 0.6906162152182199,
+          "empirical_actual_fpr": 0.03327844994511661
+        },
+        "SPATIAL_EVIDENCE": {
+          "empirical_recall_at_cap": 0.7870901229273871,
+          "equal_fpr_recall": 0.7870901229273871,
+          "empirical_actual_fpr": 0.03327844994511661
+        }
+      },
+      "spatial_minus_comparator": {
+        "COSSAD_NATIVE": {
+          "recall_gain": 0.007393629693158044,
+          "group_bootstrap_percentile_95": [
+            -0.017131151836700245,
+            0.12794877997837467
+          ]
+        },
+        "POINT_MAX": {
+          "recall_gain": 0.0964739077091672,
+          "group_bootstrap_percentile_95": [
+            0.029667699021852536,
+            0.16321308860054323
+          ]
+        }
+      }
+    },
+    "0.1": {
+      "by_readout": {
+        "COSSAD_NATIVE": {
+          "empirical_recall_at_cap": 0.8070895273489613,
+          "equal_fpr_recall": 0.8070895273489613,
+          "empirical_actual_fpr": 0.08090366423699757
+        },
+        "POINT_MAX": {
+          "empirical_recall_at_cap": 0.747458071278826,
+          "equal_fpr_recall": 0.7486733490566038,
+          "empirical_actual_fpr": 0.07769853603186937
+        },
+        "SPATIAL_EVIDENCE": {
+          "empirical_recall_at_cap": 0.8456865828092243,
+          "equal_fpr_recall": 0.846901860587002,
+          "empirical_actual_fpr": 0.08090366423699757
+        }
+      },
+      "spatial_minus_comparator": {
+        "COSSAD_NATIVE": {
+          "recall_gain": 0.039812333238040676,
+          "group_bootstrap_percentile_95": [
+            -0.03349945261708094,
+            0.09495760397132645
+          ]
+        },
+        "POINT_MAX": {
+          "recall_gain": 0.09822851153039824,
+          "group_bootstrap_percentile_95": [
+            0.004672649659864289,
+            0.1356235956947966
+          ]
+        }
+      }
+    }
+  },
+  "heldout_crop_shift": {
+    "uncropped_normal_calibration": 141,
+    "calibration_per_class": {
+      "airplane": 12,
+      "candybar": 12,
+      "car": 12,
+      "chicken": 13,
+      "diamond": 12,
+      "duck": 9,
+      "fish": 12,
+      "gemstone": 12,
+      "seahorse": 12,
+      "shell": 11,
+      "starfish": 12,
+      "toffees": 12
+    },
+    "matched_heldout_variant_pairs": 453,
+    "metrics": [
+      {
+        "scope": "uncropped_heldout",
+        "readout": "COSSAD_NATIVE",
+        "normal_inputs": 154,
+        "anomaly_inputs": 299,
+        "normal_scored": 146,
+        "anomaly_scored": 295,
+        "normal_rejects": 8,
+        "anomaly_rejects": 4,
+        "false_alarms": 11,
+        "misses": 72,
+        "scored_fpr": 0.07534246575342465,
+        "scored_miss_rate": 0.2440677966101695,
+        "normal_review_rate": 0.12337662337662338,
+        "defect_auto_pass_rate": 0.2408026755852843,
+        "normal_reject_rate": 0.05194805194805195,
+        "anomaly_reject_rate": 0.013377926421404682
+      },
+      {
+        "scope": "cropped_heldout",
+        "readout": "COSSAD_NATIVE",
+        "normal_inputs": 154,
+        "anomaly_inputs": 299,
+        "normal_scored": 147,
+        "anomaly_scored": 294,
+        "normal_rejects": 7,
+        "anomaly_rejects": 5,
+        "false_alarms": 12,
+        "misses": 69,
+        "scored_fpr": 0.08163265306122448,
+        "scored_miss_rate": 0.23469387755102042,
+        "normal_review_rate": 0.12337662337662338,
+        "defect_auto_pass_rate": 0.23076923076923078,
+        "normal_reject_rate": 0.045454545454545456,
+        "anomaly_reject_rate": 0.016722408026755852
+      },
+      {
+        "scope": "uncropped_heldout",
+        "readout": "POINT_MAX",
+        "normal_inputs": 154,
+        "anomaly_inputs": 299,
+        "normal_scored": 146,
+        "anomaly_scored": 295,
+        "normal_rejects": 8,
+        "anomaly_rejects": 4,
+        "false_alarms": 10,
+        "misses": 101,
+        "scored_fpr": 0.0684931506849315,
+        "scored_miss_rate": 0.3423728813559322,
+        "normal_review_rate": 0.11688311688311688,
+        "defect_auto_pass_rate": 0.3377926421404682,
+        "normal_reject_rate": 0.05194805194805195,
+        "anomaly_reject_rate": 0.013377926421404682
+      },
+      {
+        "scope": "cropped_heldout",
+        "readout": "POINT_MAX",
+        "normal_inputs": 154,
+        "anomaly_inputs": 299,
+        "normal_scored": 147,
+        "anomaly_scored": 294,
+        "normal_rejects": 7,
+        "anomaly_rejects": 5,
+        "false_alarms": 12,
+        "misses": 99,
+        "scored_fpr": 0.08163265306122448,
+        "scored_miss_rate": 0.336734693877551,
+        "normal_review_rate": 0.12337662337662338,
+        "defect_auto_pass_rate": 0.3311036789297659,
+        "normal_reject_rate": 0.045454545454545456,
+        "anomaly_reject_rate": 0.016722408026755852
+      },
+      {
+        "scope": "uncropped_heldout",
+        "readout": "SPATIAL_EVIDENCE",
+        "normal_inputs": 154,
+        "anomaly_inputs": 299,
+        "normal_scored": 146,
+        "anomaly_scored": 295,
+        "normal_rejects": 8,
+        "anomaly_rejects": 4,
+        "false_alarms": 16,
+        "misses": 55,
+        "scored_fpr": 0.1095890410958904,
+        "scored_miss_rate": 0.1864406779661017,
+        "normal_review_rate": 0.15584415584415584,
+        "defect_auto_pass_rate": 0.18394648829431437,
+        "normal_reject_rate": 0.05194805194805195,
+        "anomaly_reject_rate": 0.013377926421404682
+      },
+      {
+        "scope": "cropped_heldout",
+        "readout": "SPATIAL_EVIDENCE",
+        "normal_inputs": 154,
+        "anomaly_inputs": 299,
+        "normal_scored": 147,
+        "anomaly_scored": 294,
+        "normal_rejects": 7,
+        "anomaly_rejects": 5,
+        "false_alarms": 16,
+        "misses": 51,
+        "scored_fpr": 0.10884353741496598,
+        "scored_miss_rate": 0.17346938775510204,
+        "normal_review_rate": 0.14935064935064934,
+        "defect_auto_pass_rate": 0.1705685618729097,
+        "normal_reject_rate": 0.045454545454545456,
+        "anomaly_reject_rate": 0.016722408026755852
+      }
+    ]
+  }
+}

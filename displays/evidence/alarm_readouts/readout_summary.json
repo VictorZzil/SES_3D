@@ -1,0 +1,214 @@
+{
+  "protocol": {
+    "split_sha256": "217d6bfadacff9c8c637f9f40181ab4a3b8acb71669a36f1ab147433063f94a5",
+    "scores_sha256": "62973c496b669b551159cdc650fa93e121358bdaf0d4cdfd366e190e2f67bc68",
+    "salt": "SESAD-TASE-v26-20261117-alarm-repeat-v1",
+    "repeats": 200,
+    "readouts": [
+      "COSSAD_NATIVE",
+      "POINT_MAX",
+      "SPATIAL_EVIDENCE"
+    ],
+    "threshold": "Per class and readout, ascending rank n-floor(n/20) from accepted calibration normals; alarm if strictly above.",
+    "split": "Within each class, rank normal-only object groups by salted SHA-256 and hold out the first floor(n/2) for calibration. Keep all scan variants together and all groups with defects in evaluation.",
+    "summary": "Scan-micro rates per split, equally averaged across repeated splits; q10/q90 are descriptive quantiles across reused objects, not uncertainty intervals."
+  },
+  "fixed_counts": {
+    "COSSAD_NATIVE": {
+      "normal_inputs": 314,
+      "anomaly_inputs": 602,
+      "normal_scored": 299,
+      "anomaly_scored": 593,
+      "normal_rejects": 15,
+      "anomaly_rejects": 9,
+      "false_alarms": 23,
+      "misses": 127,
+      "scored_fpr": 0.07692307692307693,
+      "scored_miss_rate": 0.21416526138279932,
+      "normal_review_rate": 0.12101910828025478,
+      "defect_auto_pass_rate": 0.21096345514950166,
+      "normal_reject_rate": 0.04777070063694268,
+      "anomaly_reject_rate": 0.014950166112956811
+    },
+    "POINT_MAX": {
+      "normal_inputs": 314,
+      "anomaly_inputs": 602,
+      "normal_scored": 299,
+      "anomaly_scored": 593,
+      "normal_rejects": 15,
+      "anomaly_rejects": 9,
+      "false_alarms": 23,
+      "misses": 172,
+      "scored_fpr": 0.07692307692307693,
+      "scored_miss_rate": 0.2900505902192243,
+      "normal_review_rate": 0.12101910828025478,
+      "defect_auto_pass_rate": 0.2857142857142857,
+      "normal_reject_rate": 0.04777070063694268,
+      "anomaly_reject_rate": 0.014950166112956811
+    },
+    "SPATIAL_EVIDENCE": {
+      "normal_inputs": 314,
+      "anomaly_inputs": 602,
+      "normal_scored": 299,
+      "anomaly_scored": 593,
+      "normal_rejects": 15,
+      "anomaly_rejects": 9,
+      "false_alarms": 29,
+      "misses": 110,
+      "scored_fpr": 0.09698996655518395,
+      "scored_miss_rate": 0.18549747048903878,
+      "normal_review_rate": 0.14012738853503184,
+      "defect_auto_pass_rate": 0.18272425249169436,
+      "normal_reject_rate": 0.04777070063694268,
+      "anomaly_reject_rate": 0.014950166112956811
+    }
+  },
+  "fixed_cohort": {
+    "calibration_scans": 290,
+    "calibration_scored": 280,
+    "calibration_groups": 145,
+    "evaluation_scans": 916
+  },
+  "repeat_summary": {
+    "COSSAD_NATIVE": {
+      "scored_fpr": {
+        "mean": 0.09210256064878324,
+        "q10": 0.05016722408026756,
+        "q90": 0.13381670219788544
+      },
+      "scored_miss_rate": {
+        "mean": 0.21762225969645868,
+        "q10": 0.18043844856661045,
+        "q90": 0.2563237774030354
+      },
+      "normal_review_rate": {
+        "mean": 0.1301592356687898,
+        "q10": 0.09235668789808917,
+        "q90": 0.1722929936305732
+      },
+      "defect_auto_pass_rate": {
+        "mean": 0.21436877076411961,
+        "q10": 0.1777408637873754,
+        "q90": 0.25249169435215946
+      }
+    },
+    "POINT_MAX": {
+      "scored_fpr": {
+        "mean": 0.09622242184615012,
+        "q10": 0.06056552143508665,
+        "q90": 0.13483338367059297
+      },
+      "scored_miss_rate": {
+        "mean": 0.28166947723440133,
+        "q10": 0.24620573355817876,
+        "q90": 0.3102866779089376
+      },
+      "normal_review_rate": {
+        "mean": 0.13415605095541402,
+        "q10": 0.09872611464968153,
+        "q90": 0.1722929936305732
+      },
+      "defect_auto_pass_rate": {
+        "mean": 0.27745847176079735,
+        "q10": 0.2425249169435216,
+        "q90": 0.30564784053156147
+      }
+    },
+    "SPATIAL_EVIDENCE": {
+      "scored_fpr": {
+        "mean": 0.09427029576239751,
+        "q10": 0.06188235294117648,
+        "q90": 0.12721021827143109
+      },
+      "scored_miss_rate": {
+        "mean": 0.18004215851602023,
+        "q10": 0.15008431703204048,
+        "q90": 0.20758853288364248
+      },
+      "normal_review_rate": {
+        "mean": 0.13226114649681528,
+        "q10": 0.09872611464968153,
+        "q90": 0.16592356687898085
+      },
+      "defect_auto_pass_rate": {
+        "mean": 0.17735049833887043,
+        "q10": 0.1478405315614618,
+        "q90": 0.20448504983388704
+      }
+    }
+  },
+  "paired_spatial_minus_other": {
+    "COSSAD_NATIVE": {
+      "scored_fpr": {
+        "mean": 0.0021677351136142687,
+        "q10": -0.04,
+        "q90": 0.04349285088999123,
+        "spatial_lower": 89,
+        "spatial_higher": 102
+      },
+      "scored_miss_rate": {
+        "mean": -0.03758010118043845,
+        "q10": -0.07588532883642496,
+        "q90": 0.0016863406408094417,
+        "spatial_lower": 174,
+        "spatial_higher": 21
+      },
+      "normal_review_rate": {
+        "mean": 0.002101910828025477,
+        "q10": -0.03821656050955413,
+        "q90": 0.04140127388535031,
+        "spatial_lower": 89,
+        "spatial_higher": 102
+      },
+      "defect_auto_pass_rate": {
+        "mean": -0.037018272425249174,
+        "q10": -0.07475083056478404,
+        "q90": 0.0016611295681062954,
+        "spatial_lower": 174,
+        "spatial_higher": 21
+      }
+    },
+    "POINT_MAX": {
+      "scored_fpr": {
+        "mean": -0.0019521260837526244,
+        "q10": -0.030030303030303032,
+        "q90": 0.027212721272127198,
+        "spatial_lower": 102,
+        "spatial_higher": 82
+      },
+      "scored_miss_rate": {
+        "mean": -0.10162731871838111,
+        "q10": -0.133220910623946,
+        "q90": -0.06913996627318722,
+        "spatial_lower": 200,
+        "spatial_higher": 0
+      },
+      "normal_review_rate": {
+        "mean": -0.0018949044585987263,
+        "q10": -0.028662420382165613,
+        "q90": 0.025796178343949046,
+        "spatial_lower": 102,
+        "spatial_higher": 82
+      },
+      "defect_auto_pass_rate": {
+        "mean": -0.10010797342192691,
+        "q10": -0.13122923588039864,
+        "q90": -0.06810631229235883,
+        "spatial_lower": 200,
+        "spatial_higher": 0
+      }
+    }
+  },
+  "repeat_rejects": {
+    "normal_rejects": {
+      "mean": 13.17,
+      "q10": 9.0,
+      "q90": 17.0
+    },
+    "anomaly_rejects": {
+      "mean": 9,
+      "q10": 9.0,
+      "q90": 9.0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "per_class_roc_rows": 216,
+  "max_error_vs_sklearn": 0.0,
+  "independent_check_group_disjoint_crop": true,
+  "thresholds_checked": 36,
+  "crop_decision_rows_checked": 6
+}

@@ -1,5 +1,11 @@
 # SES-3D core (anonymous code release)
 
+## Displays manuscript code and evidence
+
+The [Displays reproducibility package](displays/) contains the aligned-descriptor scorer,
+frozen-threshold and same-slot ranking replays, and the paired full-bank evidence.
+Run the README instructions in that directory to check the archived results.
+
 Minimal, dependency-light implementation of **Spatial Exemplar Scoring** for
 few-template 3D anomaly localization, prepared for double-blind review.
 

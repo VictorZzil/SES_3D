@@ -1,0 +1,2402 @@
+{
+  "date": "2026-10-30",
+  "categories": {
+    "original40": [
+      "ashtray0",
+      "bag0",
+      "bottle0",
+      "bottle1",
+      "bottle3",
+      "bowl0",
+      "bowl1",
+      "bowl2",
+      "bowl3",
+      "bowl4",
+      "bowl5",
+      "bucket0",
+      "bucket1",
+      "cap0",
+      "cap3",
+      "cap4",
+      "cap5",
+      "cup0",
+      "cup1",
+      "eraser0",
+      "headset0",
+      "headset1",
+      "helmet0",
+      "helmet1",
+      "helmet2",
+      "helmet3",
+      "jar0",
+      "microphone0",
+      "shelf0",
+      "tap0",
+      "tap1",
+      "vase0",
+      "vase1",
+      "vase2",
+      "vase3",
+      "vase4",
+      "vase5",
+      "vase7",
+      "vase8",
+      "vase9"
+    ],
+    "COMMON50": [
+      "ashtray0",
+      "bag0",
+      "bottle0",
+      "bottle1",
+      "bottle3",
+      "bowl0",
+      "bowl1",
+      "bowl2",
+      "bowl3",
+      "bowl4",
+      "bowl5",
+      "bucket0",
+      "bucket1",
+      "cabinet0",
+      "cap0",
+      "cap2",
+      "cap3",
+      "cap4",
+      "cap5",
+      "chair0",
+      "cup0",
+      "cup1",
+      "cup2",
+      "desk0",
+      "eraser0",
+      "headset0",
+      "headset1",
+      "helmet0",
+      "helmet1",
+      "helmet2",
+      "helmet3",
+      "jar0",
+      "knife0",
+      "knife1",
+      "microphone0",
+      "microphone1",
+      "screen0",
+      "tap0",
+      "tap1",
+      "vase0",
+      "vase1",
+      "vase10",
+      "vase2",
+      "vase3",
+      "vase4",
+      "vase5",
+      "vase6",
+      "vase7",
+      "vase8",
+      "vase9"
+    ],
+    "all52": [
+      "ashtray0",
+      "bag0",
+      "bottle0",
+      "bottle1",
+      "bottle3",
+      "bowl0",
+      "bowl1",
+      "bowl2",
+      "bowl3",
+      "bowl4",
+      "bowl5",
+      "bucket0",
+      "bucket1",
+      "cabinet0",
+      "cap0",
+      "cap1",
+      "cap2",
+      "cap3",
+      "cap4",
+      "cap5",
+      "chair0",
+      "cup0",
+      "cup1",
+      "cup2",
+      "desk0",
+      "eraser0",
+      "headset0",
+      "headset1",
+      "helmet0",
+      "helmet1",
+      "helmet2",
+      "helmet3",
+      "jar0",
+      "knife0",
+      "knife1",
+      "microphone0",
+      "microphone1",
+      "screen0",
+      "shelf0",
+      "tap0",
+      "tap1",
+      "vase0",
+      "vase1",
+      "vase10",
+      "vase2",
+      "vase3",
+      "vase4",
+      "vase5",
+      "vase6",
+      "vase7",
+      "vase8",
+      "vase9"
+    ]
+  },
+  "COMMON50_excludes": [
+    "cap1",
+    "shelf0"
+  ],
+  "summary": [
+    {
+      "cohort": "original40",
+      "n_categories": 40,
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.954778395266167,
+      "P_AUROC": 0.9837408066307329,
+      "P_AP": 0.6942938984932046
+    },
+    {
+      "cohort": "original40",
+      "n_categories": 40,
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9467445284219693,
+      "P_AUROC": 0.979376288759038,
+      "P_AP": 0.6857003240703861
+    },
+    {
+      "cohort": "original40",
+      "n_categories": 40,
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9507245892756,
+      "P_AUROC": 0.9817290818769039,
+      "P_AP": 0.6918149960534777
+    },
+    {
+      "cohort": "COMMON50",
+      "n_categories": 50,
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9285801546188083,
+      "P_AUROC": 0.9775578624291132,
+      "P_AP": 0.6335982224863566
+    },
+    {
+      "cohort": "COMMON50",
+      "n_categories": 50,
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9181785849663233,
+      "P_AUROC": 0.9713018428371317,
+      "P_AP": 0.625041596693791
+    },
+    {
+      "cohort": "COMMON50",
+      "n_categories": 50,
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.922426203534861,
+      "P_AUROC": 0.9746543229522517,
+      "P_AP": 0.6307023374094064
+    },
+    {
+      "cohort": "all52",
+      "n_categories": 52,
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9293728518796546,
+      "P_AUROC": 0.9779153805392586,
+      "P_AP": 0.6347389730616223
+    },
+    {
+      "cohort": "all52",
+      "n_categories": 52,
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9174729205076892,
+      "P_AUROC": 0.9716971997001148,
+      "P_AP": 0.6252055451208004
+    },
+    {
+      "cohort": "all52",
+      "n_categories": 52,
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9227808273893544,
+      "P_AUROC": 0.9750364483234598,
+      "P_AP": 0.631252544288237
+    }
+  ],
+  "category_results": [
+    {
+      "category": "ashtray0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9939235292855547,
+      "P_AP": 0.8345014977068749,
+      "n_subsets": 6,
+      "n_samples": 27
+    },
+    {
+      "category": "ashtray0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9937506835385918,
+      "P_AP": 0.8361568348815734,
+      "n_subsets": 6,
+      "n_samples": 27
+    },
+    {
+      "category": "ashtray0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9938644641641434,
+      "P_AP": 0.8379441989330735,
+      "n_subsets": 6,
+      "n_samples": 27
+    },
+    {
+      "category": "bag0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9136752136752136,
+      "P_AUROC": 0.9713720886321711,
+      "P_AP": 0.5491499976998232,
+      "n_subsets": 6,
+      "n_samples": 28
+    },
+    {
+      "category": "bag0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9008547008547011,
+      "P_AUROC": 0.964608609477264,
+      "P_AP": 0.5328982092387929,
+      "n_subsets": 6,
+      "n_samples": 28
+    },
+    {
+      "category": "bag0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9034188034188034,
+      "P_AUROC": 0.9701379924716794,
+      "P_AP": 0.5469336991054873,
+      "n_subsets": 6,
+      "n_samples": 28
+    },
+    {
+      "category": "bottle0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9954890500829968,
+      "P_AP": 0.7653004189604878,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "bottle0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9956007994079652,
+      "P_AP": 0.7649524686578113,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "bottle0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9956151802675798,
+      "P_AP": 0.7669905360380403,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "bottle1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9278148761835912,
+      "P_AP": 0.2087552504189293,
+      "n_subsets": 6,
+      "n_samples": 32
+    },
+    {
+      "category": "bottle1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9267891421289464,
+      "P_AP": 0.20126057268394462,
+      "n_subsets": 6,
+      "n_samples": 32
+    },
+    {
+      "category": "bottle1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9268747825336742,
+      "P_AP": 0.20118061607631196,
+      "n_subsets": 6,
+      "n_samples": 32
+    },
+    {
+      "category": "bottle3",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9816666666666668,
+      "P_AUROC": 0.9623691033726223,
+      "P_AP": 0.43923638415659433,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "bottle3",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9544444444444444,
+      "P_AUROC": 0.9584913643939205,
+      "P_AP": 0.4185422060730455,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "bottle3",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9683333333333333,
+      "P_AUROC": 0.9604763173931562,
+      "P_AP": 0.42644019651177995,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "bowl0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9753086419753086,
+      "P_AUROC": 0.9872175815653,
+      "P_AP": 0.726961655639608,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9660493827160495,
+      "P_AUROC": 0.981053351425012,
+      "P_AP": 0.7041178541516415,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.971604938271605,
+      "P_AUROC": 0.9847322144456934,
+      "P_AP": 0.7198651337606755,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9981481481481481,
+      "P_AUROC": 0.9973466559584062,
+      "P_AP": 0.7772212113314865,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9987654320987654,
+      "P_AUROC": 0.9975101791093676,
+      "P_AP": 0.7814381379751286,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9981481481481481,
+      "P_AUROC": 0.9974463242003929,
+      "P_AP": 0.780836335841902,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl2",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.945679012345679,
+      "P_AUROC": 0.9836665197223254,
+      "P_AP": 0.5233114073623049,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl2",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9271604938271606,
+      "P_AUROC": 0.9777177149299444,
+      "P_AP": 0.5189099080424543,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl2",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9314814814814816,
+      "P_AUROC": 0.9815047926125895,
+      "P_AP": 0.5354512031490004,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl3",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9914194910749815,
+      "P_AP": 0.6664782821631575,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl3",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9910991431070085,
+      "P_AP": 0.6635411629018795,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl3",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9912592421638741,
+      "P_AP": 0.6655156135037058,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl4",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.997607549008041,
+      "P_AP": 0.8323664160809513,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl4",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9975398790504805,
+      "P_AP": 0.8272876487425306,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl4",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9975844247954831,
+      "P_AP": 0.8301378568840411,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "bowl5",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9967291619648065,
+      "P_AP": 0.8210577997836647,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "bowl5",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9994152046783625,
+      "P_AUROC": 0.9967074880770882,
+      "P_AP": 0.8332147509531659,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "bowl5",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9968061710821562,
+      "P_AP": 0.833335032817068,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "bucket0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9437500000000001,
+      "P_AUROC": 0.9781900080967905,
+      "P_AP": 0.7465837247922428,
+      "n_subsets": 6,
+      "n_samples": 31
+    },
+    {
+      "category": "bucket0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9527777777777778,
+      "P_AUROC": 0.9731231888417781,
+      "P_AP": 0.7210718335315544,
+      "n_subsets": 6,
+      "n_samples": 31
+    },
+    {
+      "category": "bucket0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9444444444444445,
+      "P_AUROC": 0.9759187247197768,
+      "P_AP": 0.739926575057197,
+      "n_subsets": 6,
+      "n_samples": 31
+    },
+    {
+      "category": "bucket1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8941798941798943,
+      "P_AUROC": 0.982055263139843,
+      "P_AP": 0.8348934064331003,
+      "n_subsets": 6,
+      "n_samples": 36
+    },
+    {
+      "category": "bucket1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8798941798941797,
+      "P_AUROC": 0.9807369437408954,
+      "P_AP": 0.835869355931487,
+      "n_subsets": 6,
+      "n_samples": 36
+    },
+    {
+      "category": "bucket1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8830687830687832,
+      "P_AUROC": 0.9813511502095742,
+      "P_AP": 0.8397025632499214,
+      "n_subsets": 6,
+      "n_samples": 36
+    },
+    {
+      "category": "cabinet0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.43444444444444447,
+      "P_AUROC": 0.8930790031666129,
+      "P_AP": 0.020599095095415434,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "cabinet0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.385,
+      "P_AUROC": 0.8477925422818885,
+      "P_AP": 0.012257409080479295,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "cabinet0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.40111111111111114,
+      "P_AUROC": 0.8715937125951764,
+      "P_AP": 0.015298706127473688,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "cap0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8808641975308641,
+      "P_AUROC": 0.9898534534518023,
+      "P_AP": 0.8611441178938621,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "cap0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8716049382716049,
+      "P_AUROC": 0.9896462762493634,
+      "P_AP": 0.8657783867388694,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "cap0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8746913580246914,
+      "P_AUROC": 0.9898022128689931,
+      "P_AP": 0.8651566746696305,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "cap1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.986842105263158,
+      "P_AUROC": 0.9948771894078219,
+      "P_AP": 0.5888717332317321,
+      "n_subsets": 1,
+      "n_samples": 31
+    },
+    {
+      "category": "cap1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9035087719298246,
+      "P_AUROC": 0.9911876867848921,
+      "P_AP": 0.5461323303795178,
+      "n_subsets": 1,
+      "n_samples": 31
+    },
+    {
+      "category": "cap1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9517543859649124,
+      "P_AUROC": 0.9935593649041359,
+      "P_AP": 0.5666960412771407,
+      "n_subsets": 1,
+      "n_samples": 31
+    },
+    {
+      "category": "cap2",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8403508771929825,
+      "P_AUROC": 0.9665657807209805,
+      "P_AP": 0.4545149176159113,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap2",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8140350877192982,
+      "P_AUROC": 0.9636418675972257,
+      "P_AP": 0.42776983860370826,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap2",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.827485380116959,
+      "P_AUROC": 0.9640246426550615,
+      "P_AP": 0.4283108679005931,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap3",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9789473684210527,
+      "P_AUROC": 0.9878954623887254,
+      "P_AP": 0.694084852849418,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap3",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9754385964912281,
+      "P_AUROC": 0.9865250010681051,
+      "P_AP": 0.6893792693559768,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap3",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9760233918128655,
+      "P_AUROC": 0.9866601913431055,
+      "P_AP": 0.6885934990958099,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap4",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8614035087719297,
+      "P_AUROC": 0.9896183675397409,
+      "P_AP": 0.6932801529254099,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap4",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8450292397660819,
+      "P_AUROC": 0.9697330521616297,
+      "P_AP": 0.6761615737332338,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap4",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8368421052631579,
+      "P_AUROC": 0.9822314102937879,
+      "P_AP": 0.6800522133912953,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap5",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9596491228070175,
+      "P_AUROC": 0.9953072374333743,
+      "P_AP": 0.6456788342370746,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap5",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9403508771929826,
+      "P_AUROC": 0.9952390846876166,
+      "P_AP": 0.6667476076034738,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "cap5",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9508771929824563,
+      "P_AUROC": 0.9955834687587135,
+      "P_AP": 0.6644845082195864,
+      "n_subsets": 6,
+      "n_samples": 34
+    },
+    {
+      "category": "chair0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9366666666666666,
+      "P_AUROC": 0.9347978334533296,
+      "P_AP": 0.6368144857908579,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "chair0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9405555555555555,
+      "P_AUROC": 0.9305540644613047,
+      "P_AP": 0.6388413407547022,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "chair0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9338888888888889,
+      "P_AUROC": 0.9366884156162083,
+      "P_AP": 0.6390664938937545,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "cup0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9944444444444445,
+      "P_AUROC": 0.9895634635562914,
+      "P_AP": 0.6898734292464054,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9857142857142858,
+      "P_AUROC": 0.9854635708601625,
+      "P_AP": 0.6822011548055094,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9904761904761905,
+      "P_AUROC": 0.988318431345132,
+      "P_AP": 0.6875170197020027,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9992063492063492,
+      "P_AUROC": 0.9945228812913118,
+      "P_AP": 0.8036845440982883,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9992063492063492,
+      "P_AUROC": 0.9952630661322677,
+      "P_AP": 0.8252265560800177,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9992063492063492,
+      "P_AUROC": 0.9951880614423677,
+      "P_AP": 0.8208247241419735,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup2",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9968253968253968,
+      "P_AUROC": 0.9967224494940492,
+      "P_AP": 0.8496816194487832,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup2",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9992063492063492,
+      "P_AUROC": 0.9967855725251432,
+      "P_AP": 0.851847761805955,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "cup2",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9984126984126984,
+      "P_AUROC": 0.9967803806639454,
+      "P_AP": 0.8519109057570322,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "desk0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.7005555555555555,
+      "P_AUROC": 0.9079018406008728,
+      "P_AP": 0.05976471214580025,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "desk0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.7027777777777778,
+      "P_AUROC": 0.8538080823239227,
+      "P_AP": 0.02982315764993701,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "desk0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.7111111111111111,
+      "P_AUROC": 0.8767053837156119,
+      "P_AP": 0.03509247054967416,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "eraser0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.769047619047619,
+      "P_AUROC": 0.9285810233288543,
+      "P_AP": 0.5247732522419887,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "eraser0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.7476190476190476,
+      "P_AUROC": 0.8919269807765838,
+      "P_AP": 0.5032604570758004,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "eraser0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.7682539682539682,
+      "P_AUROC": 0.9057972034111729,
+      "P_AP": 0.5122088037450927,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "headset0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9745601488066727,
+      "P_AP": 0.7370427986755977,
+      "n_subsets": 6,
+      "n_samples": 30
+    },
+    {
+      "category": "headset0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9714352190277263,
+      "P_AP": 0.7313916825928718,
+      "n_subsets": 6,
+      "n_samples": 30
+    },
+    {
+      "category": "headset0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9728625666416608,
+      "P_AP": 0.7347782287983428,
+      "n_subsets": 6,
+      "n_samples": 30
+    },
+    {
+      "category": "headset1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9900883862908628,
+      "P_AP": 0.6919689863446242,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "headset1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9992063492063492,
+      "P_AUROC": 0.9841709086087543,
+      "P_AP": 0.672037944957264,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "headset1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9992063492063492,
+      "P_AUROC": 0.9877947952029782,
+      "P_AP": 0.6819936673734626,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "helmet0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8845410628019325,
+      "P_AUROC": 0.9737050208647293,
+      "P_AP": 0.8418987793553799,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "helmet0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8700483091787441,
+      "P_AUROC": 0.9653489299128669,
+      "P_AP": 0.8449252984372316,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "helmet0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8830917874396137,
+      "P_AUROC": 0.9677252718471386,
+      "P_AP": 0.8458667368666188,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "helmet1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9948222134036717,
+      "P_AP": 0.7261085207279497,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "helmet1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9948254079552662,
+      "P_AP": 0.7315940294686009,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "helmet1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9949236860445629,
+      "P_AP": 0.7316880610371254,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "helmet2",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9555555555555554,
+      "P_AUROC": 0.9952293217842764,
+      "P_AP": 0.74625252112812,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "helmet2",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9599033816425121,
+      "P_AUROC": 0.99506542829207,
+      "P_AP": 0.7438864074667664,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "helmet2",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9603864734299518,
+      "P_AUROC": 0.9952164065761834,
+      "P_AP": 0.7458626727495096,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "helmet3",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9131313131313131,
+      "P_AUROC": 0.9836851404643903,
+      "P_AP": 0.6867755850268336,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "helmet3",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8318181818181819,
+      "P_AUROC": 0.9713416396479638,
+      "P_AP": 0.6480102872358868,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "helmet3",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8727272727272727,
+      "P_AUROC": 0.9797786163523754,
+      "P_AP": 0.6699048881313764,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "jar0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9777777777777779,
+      "P_AUROC": 0.9918066649251883,
+      "P_AP": 0.742629237056618,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "jar0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9730158730158731,
+      "P_AUROC": 0.9856069609096143,
+      "P_AP": 0.708075015337104,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "jar0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9761904761904763,
+      "P_AUROC": 0.9895025396789938,
+      "P_AP": 0.7299654147244753,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "knife0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8272222222222222,
+      "P_AUROC": 0.9465856429323155,
+      "P_AP": 0.35078470826666713,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "knife0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8238888888888888,
+      "P_AUROC": 0.9386614041525091,
+      "P_AP": 0.3575469164826511,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "knife0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8266666666666667,
+      "P_AUROC": 0.9454536829643089,
+      "P_AP": 0.35882862508611774,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "knife1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9461111111111112,
+      "P_AUROC": 0.9765981094215824,
+      "P_AP": 0.5141031781947335,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "knife1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.93,
+      "P_AUROC": 0.9736462481261757,
+      "P_AP": 0.5193545285235062,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "knife1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9433333333333334,
+      "P_AUROC": 0.976283336547252,
+      "P_AP": 0.5190521842537357,
+      "n_subsets": 6,
+      "n_samples": 35
+    },
+    {
+      "category": "microphone0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9925560341977454,
+      "P_AP": 0.7947434817342116,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "microphone0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9925506449240281,
+      "P_AP": 0.7952654883157844,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "microphone0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9925649775534983,
+      "P_AP": 0.7953133424086388,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "microphone1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8722222222222222,
+      "P_AUROC": 0.984615393676947,
+      "P_AP": 0.47725145843701305,
+      "n_subsets": 6,
+      "n_samples": 31
+    },
+    {
+      "category": "microphone1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8423611111111112,
+      "P_AUROC": 0.9768204165956166,
+      "P_AP": 0.4057922944646389,
+      "n_subsets": 6,
+      "n_samples": 31
+    },
+    {
+      "category": "microphone1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8569444444444444,
+      "P_AUROC": 0.9801512476397275,
+      "P_AP": 0.4454446123491089,
+      "n_subsets": 6,
+      "n_samples": 31
+    },
+    {
+      "category": "screen0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9771604938271604,
+      "P_AUROC": 0.9932390385255793,
+      "P_AP": 0.4612359539684885,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "screen0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9580246913580246,
+      "P_AUROC": 0.9928907903733952,
+      "P_AP": 0.46210203693152624,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "screen0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9648148148148148,
+      "P_AUROC": 0.9931959562801352,
+      "P_AP": 0.46262009601362003,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "shelf0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9115384615384615,
+      "P_AUROC": 0.9788294771779673,
+      "P_AP": 0.7376437416548015,
+      "n_subsets": 1,
+      "n_samples": 33
+    },
+    {
+      "category": "shelf0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8961538461538461,
+      "P_AUROC": 0.9719745557644962,
+      "P_AP": 0.7124761812125575,
+      "n_subsets": 1,
+      "n_samples": 33
+    },
+    {
+      "category": "shelf0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9115384615384615,
+      "P_AUROC": 0.9756198003031854,
+      "P_AP": 0.7233193912408629,
+      "n_subsets": 1,
+      "n_samples": 33
+    },
+    {
+      "category": "tap0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.98989898989899,
+      "P_AUROC": 0.9916225802301164,
+      "P_AP": 0.7915609028705513,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "tap0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9823232323232323,
+      "P_AUROC": 0.9909984391351455,
+      "P_AP": 0.7966170444696914,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "tap0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9858585858585859,
+      "P_AUROC": 0.9917701369445103,
+      "P_AP": 0.797568380016934,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "tap1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8814814814814816,
+      "P_AUROC": 0.9538109202072141,
+      "P_AP": 0.3136490014038095,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "tap1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.888888888888889,
+      "P_AUROC": 0.9440953223893819,
+      "P_AP": 0.2931427825291823,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "tap1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8895061728395062,
+      "P_AUROC": 0.9496013035357675,
+      "P_AP": 0.31064316255242247,
+      "n_subsets": 6,
+      "n_samples": 33
+    },
+    {
+      "category": "vase0",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9792408047823087,
+      "P_AP": 0.7239179271634093,
+      "n_subsets": 6,
+      "n_samples": 30
+    },
+    {
+      "category": "vase0",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9759162089949389,
+      "P_AP": 0.7234318989258295,
+      "n_subsets": 6,
+      "n_samples": 30
+    },
+    {
+      "category": "vase0",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.977902909046136,
+      "P_AP": 0.7256759124114409,
+      "n_subsets": 6,
+      "n_samples": 30
+    },
+    {
+      "category": "vase1",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9905196070035611,
+      "P_AP": 0.5951158653025119,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase1",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9877224859518577,
+      "P_AP": 0.5987173108423706,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase1",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9892725413331677,
+      "P_AP": 0.5974303903183494,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase10",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.7236714975845411,
+      "P_AUROC": 0.9288613090709945,
+      "P_AP": 0.04866267528687426,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "vase10",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.6468599033816426,
+      "P_AUROC": 0.9139663028246137,
+      "P_AP": 0.04379662801941114,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "vase10",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.6512077294685991,
+      "P_AUROC": 0.9215404376183157,
+      "P_AP": 0.04587736868959894,
+      "n_subsets": 6,
+      "n_samples": 38
+    },
+    {
+      "category": "vase2",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.861904761904762,
+      "P_AUROC": 0.9836905274370826,
+      "P_AP": 0.5197252181496155,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase2",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8404761904761905,
+      "P_AUROC": 0.967154744544251,
+      "P_AP": 0.40089566980369845,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase2",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8484126984126982,
+      "P_AUROC": 0.975923203580879,
+      "P_AP": 0.4534301159617073,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase3",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9641414141414142,
+      "P_AUROC": 0.9846757283043294,
+      "P_AP": 0.6564742397425697,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase3",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9712121212121212,
+      "P_AUROC": 0.9836670556822461,
+      "P_AP": 0.645207013964648,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase3",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9681818181818181,
+      "P_AUROC": 0.9840212400461049,
+      "P_AP": 0.6459885060980765,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase4",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8934343434343434,
+      "P_AUROC": 0.9896549501008945,
+      "P_AP": 0.8065676355679333,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase4",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8924242424242425,
+      "P_AUROC": 0.9887963084470667,
+      "P_AP": 0.8067345167365282,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase4",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.901010101010101,
+      "P_AUROC": 0.9893676237143745,
+      "P_AP": 0.806942485255418,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase5",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9920634920634921,
+      "P_AUROC": 0.9966877472175938,
+      "P_AP": 0.8092198744690059,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase5",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9896825396825397,
+      "P_AUROC": 0.9966609532933628,
+      "P_AP": 0.8116693228227746,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase5",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9920634920634921,
+      "P_AUROC": 0.9967630129099682,
+      "P_AP": 0.8142931809322649,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase6",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8941798941798943,
+      "P_AUROC": 0.9781239323410481,
+      "P_AP": 0.7723861219938994,
+      "n_subsets": 6,
+      "n_samples": 36
+    },
+    {
+      "category": "vase6",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8925925925925927,
+      "P_AUROC": 0.9734478559977652,
+      "P_AP": 0.7874111407701455,
+      "n_subsets": 6,
+      "n_samples": 36
+    },
+    {
+      "category": "vase6",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.888888888888889,
+      "P_AUROC": 0.9767554765438748,
+      "P_AP": 0.7843340889513608,
+      "n_subsets": 6,
+      "n_samples": 36
+    },
+    {
+      "category": "vase7",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9988618758844003,
+      "P_AP": 0.8732357827629227,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase7",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9988831022413015,
+      "P_AP": 0.876940711514349,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase7",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 1.0,
+      "P_AUROC": 0.9988965077020558,
+      "P_AP": 0.8781778888682025,
+      "n_subsets": 6,
+      "n_samples": 29
+    },
+    {
+      "category": "vase8",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.9782828282828283,
+      "P_AUROC": 0.9971601793192554,
+      "P_AP": 0.8235906932518834,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase8",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.9696969696969697,
+      "P_AUROC": 0.9971006971666441,
+      "P_AP": 0.8273767081706874,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase8",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.9707070707070707,
+      "P_AUROC": 0.9971028463879089,
+      "P_AP": 0.8270374451415311,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase9",
+      "T": 2,
+      "method": "nearest-exemplar",
+      "O_AUROC": 0.8914141414141414,
+      "P_AUROC": 0.9678821697495245,
+      "P_AP": 0.5152985113181616,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase9",
+      "T": 2,
+      "method": "mean",
+      "O_AUROC": 0.8606060606060605,
+      "P_AUROC": 0.9632110183085457,
+      "P_AP": 0.5116016988537265,
+      "n_subsets": 6,
+      "n_samples": 37
+    },
+    {
+      "category": "vase9",
+      "T": 2,
+      "method": "centroid",
+      "O_AUROC": 0.8732323232323232,
+      "P_AUROC": 0.9654005291516597,
+      "P_AP": 0.5136229673587567,
+      "n_subsets": 6,
+      "n_samples": 37
+    }
+  ],
+  "object_readouts": {
+    "cap1": {
+      "dataset": "ShapeNetAD",
+      "class": "cap1",
+      "T": 2,
+      "methods_summary": {
+        "nearest-exemplar": {
+          "P_AUROC": 0.9948771892447912,
+          "P_AP": 0.5888717860313143,
+          "O_AUROC": 0.986842105263158
+        },
+        "mean": {
+          "P_AUROC": 0.991187687004629,
+          "P_AP": 0.5461323720650207,
+          "O_AUROC": 0.9035087719298246
+        },
+        "centroid": {
+          "P_AUROC": 0.9935593645497215,
+          "P_AP": 0.5666959432357964,
+          "O_AUROC": 0.9517543859649124
+        }
+      },
+      "source": "New CPU fp32 projection of unchanged cached features; maximum of projected scores",
+      "n_samples": 31,
+      "sample_ids": [
+        "ashapenet_cap1_0_bending.npz",
+        "ashapenet_cap1_10_concavity.npz",
+        "ashapenet_cap1_11_concavity.npz",
+        "ashapenet_cap1_12_concavity.npz",
+        "ashapenet_cap1_13_concavity.npz",
+        "ashapenet_cap1_14_concavity.npz",
+        "ashapenet_cap1_15_concavity.npz",
+        "ashapenet_cap1_16_concavity.npz",
+        "ashapenet_cap1_17_hole.npz",
+        "ashapenet_cap1_18_hole.npz",
+        "ashapenet_cap1_19_good.npz",
+        "ashapenet_cap1_1_broken.npz",
+        "ashapenet_cap1_20_good.npz",
+        "ashapenet_cap1_21_good.npz",
+        "ashapenet_cap1_23_good.npz",
+        "ashapenet_cap1_26_good.npz",
+        "ashapenet_cap1_27_good.npz",
+        "ashapenet_cap1_28_good.npz",
+        "ashapenet_cap1_29_good.npz",
+        "ashapenet_cap1_2_broken.npz",
+        "ashapenet_cap1_30_good.npz",
+        "ashapenet_cap1_31_good.npz",
+        "ashapenet_cap1_32_good.npz",
+        "ashapenet_cap1_33_good.npz",
+        "ashapenet_cap1_3_bulge.npz",
+        "ashapenet_cap1_4_bulge.npz",
+        "ashapenet_cap1_5_bulge.npz",
+        "ashapenet_cap1_6_bulge.npz",
+        "ashapenet_cap1_7_bulge.npz",
+        "ashapenet_cap1_8_bulge.npz",
+        "ashapenet_cap1_9_bulge.npz"
+      ],
+      "object_scores": [
+        [
+          0.4554502069950104,
+          0.5005948543548584,
+          0.5105516910552979
+        ],
+        [
+          0.2267734557390213,
+          0.22961993515491486,
+          0.2288494110107422
+        ],
+        [
+          0.15456420183181763,
+          0.16170287132263184,
+          0.1608888953924179
+        ],
+        [
+          0.19530564546585083,
+          0.20290915668010712,
+          0.20129701495170593
+        ],
+        [
+          0.366778701543808,
+          0.3824128210544586,
+          0.38055041432380676
+        ],
+        [
+          0.17475375533103943,
+          0.17861199378967285,
+          0.1775372177362442
+        ],
+        [
+          0.28985363245010376,
+          0.29617685079574585,
+          0.29586926102638245
+        ],
+        [
+          0.3984905481338501,
+          0.41688069701194763,
+          0.41579094529151917
+        ],
+        [
+          0.18541201949119568,
+          0.23691633343696594,
+          0.2221067100763321
+        ],
+        [
+          0.10963020473718643,
+          0.14120496809482574,
+          0.1203552633523941
+        ],
+        [
+          0.07660172134637833,
+          0.15822377800941467,
+          0.1273205429315567
+        ],
+        [
+          0.22355002164840698,
+          0.27895352244377136,
+          0.27242782711982727
+        ],
+        [
+          0.04892348125576973,
+          0.1408926248550415,
+          0.10462518036365509
+        ],
+        [
+          0.06655710190534592,
+          0.15925103425979614,
+          0.12837503850460052
+        ],
+        [
+          0.055051155388355255,
+          0.15061530470848083,
+          0.1169678270816803
+        ],
+        [
+          0.06584432721138,
+          0.1582799106836319,
+          0.1273576319217682
+        ],
+        [
+          0.05555601418018341,
+          0.1426539272069931,
+          0.1064131110906601
+        ],
+        [
+          0.052697766572237015,
+          0.14360077679157257,
+          0.10792069137096405
+        ],
+        [
+          0.15338349342346191,
+          0.20560024678707123,
+          0.19159673154354095
+        ],
+        [
+          0.19539117813110352,
+          0.24617041647434235,
+          0.23816469311714172
+        ],
+        [
+          0.06147170811891556,
+          0.15633708238601685,
+          0.12511253356933594
+        ],
+        [
+          0.12031495571136475,
+          0.1715448647737503,
+          0.1560448408126831
+        ],
+        [
+          0.06554081290960312,
+          0.158406600356102,
+          0.12761832773685455
+        ],
+        [
+          0.05211643874645233,
+          0.13988301157951355,
+          0.1026693731546402
+        ],
+        [
+          0.22738991677761078,
+          0.2295556217432022,
+          0.2290736436843872
+        ],
+        [
+          0.14083018898963928,
+          0.14511717855930328,
+          0.1442364752292633
+        ],
+        [
+          0.2074412703514099,
+          0.2135659158229828,
+          0.21230052411556244
+        ],
+        [
+          0.3685489296913147,
+          0.3839339315891266,
+          0.38317668437957764
+        ],
+        [
+          0.21760067343711853,
+          0.22121648490428925,
+          0.2206782102584839
+        ],
+        [
+          0.2502776086330414,
+          0.25966429710388184,
+          0.25910189747810364
+        ],
+        [
+          0.42129525542259216,
+          0.4376771152019501,
+          0.4375273883342743
+        ]
+      ],
+      "object_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "feature_cache": "features_ShapeNetAD_cap1_SMALL.npz",
+      "score_cache": "scores_ShapeNetAD_cap1_SMALL.npz",
+      "original_point_metric_crosscheck_tolerance": 2e-06
+    },
+    "shelf0": {
+      "dataset": "ShapeNetAD",
+      "class": "shelf0",
+      "T": 2,
+      "methods_summary": {
+        "nearest-exemplar": {
+          "P_AUROC": 0.9788294804402058,
+          "P_AP": 0.7376437371710431,
+          "O_AUROC": 0.9115384615384615
+        },
+        "mean": {
+          "P_AUROC": 0.9719745586885197,
+          "P_AP": 0.7124761899823879,
+          "O_AUROC": 0.8961538461538461
+        },
+        "centroid": {
+          "P_AUROC": 0.9756198029289643,
+          "P_AP": 0.723319381356507,
+          "O_AUROC": 0.9115384615384615
+        }
+      },
+      "source": "New CPU fp32 projection of unchanged cached features; maximum of projected scores",
+      "n_samples": 33,
+      "sample_ids": [
+        "ashapenet_shelf0_0_bending.npz",
+        "ashapenet_shelf0_10_concavity.npz",
+        "ashapenet_shelf0_11_concavity.npz",
+        "ashapenet_shelf0_12_concavity.npz",
+        "ashapenet_shelf0_14_concavity.npz",
+        "ashapenet_shelf0_15_concavity.npz",
+        "ashapenet_shelf0_16_concavity.npz",
+        "ashapenet_shelf0_17_crak.npz",
+        "ashapenet_shelf0_19_hole.npz",
+        "ashapenet_shelf0_1_broken.npz",
+        "ashapenet_shelf0_20_hole.npz",
+        "ashapenet_shelf0_21_good.npz",
+        "ashapenet_shelf0_22_good.npz",
+        "ashapenet_shelf0_24_good.npz",
+        "ashapenet_shelf0_25_good.npz",
+        "ashapenet_shelf0_26_good.npz",
+        "ashapenet_shelf0_27_good.npz",
+        "ashapenet_shelf0_28_good.npz",
+        "ashapenet_shelf0_29_good.npz",
+        "ashapenet_shelf0_2_broken.npz",
+        "ashapenet_shelf0_30_good.npz",
+        "ashapenet_shelf0_32_good.npz",
+        "ashapenet_shelf0_33_good.npz",
+        "ashapenet_shelf0_34_good.npz",
+        "ashapenet_shelf0_35_good.npz",
+        "ashapenet_shelf0_36_scratch.npz",
+        "ashapenet_shelf0_37_scratch.npz",
+        "ashapenet_shelf0_3_bulge.npz",
+        "ashapenet_shelf0_4_bulge.npz",
+        "ashapenet_shelf0_5_bulge.npz",
+        "ashapenet_shelf0_6_bulge.npz",
+        "ashapenet_shelf0_7_bulge.npz",
+        "ashapenet_shelf0_9_bulge.npz"
+      ],
+      "object_scores": [
+        [
+          0.3034956753253937,
+          0.3387528359889984,
+          0.33418092131614685
+        ],
+        [
+          0.3457922041416168,
+          0.3660299777984619,
+          0.36299148201942444
+        ],
+        [
+          0.3310374319553375,
+          0.3731459677219391,
+          0.368848979473114
+        ],
+        [
+          0.31156206130981445,
+          0.35023826360702515,
+          0.3474554121494293
+        ],
+        [
+          0.23696939647197723,
+          0.27647942304611206,
+          0.2692868411540985
+        ],
+        [
+          0.12838751077651978,
+          0.15338855981826782,
+          0.13827000558376312
+        ],
+        [
+          0.1887681484222412,
+          0.2265944629907608,
+          0.2178691178560257
+        ],
+        [
+          0.22161808609962463,
+          0.25934988260269165,
+          0.25152722001075745
+        ],
+        [
+          0.09729302674531937,
+          0.13348959386348724,
+          0.11869154125452042
+        ],
+        [
+          0.15281569957733154,
+          0.18834826350212097,
+          0.17658209800720215
+        ],
+        [
+          0.10485976189374924,
+          0.14334559440612793,
+          0.12755650281906128
+        ],
+        [
+          0.10245566070079803,
+          0.13665755093097687,
+          0.12126921117305756
+        ],
+        [
+          0.10624844580888748,
+          0.15368424355983734,
+          0.13596966862678528
+        ],
+        [
+          0.08049442619085312,
+          0.13492552936077118,
+          0.11310179531574249
+        ],
+        [
+          0.11597765237092972,
+          0.15196174383163452,
+          0.13561207056045532
+        ],
+        [
+          0.09342765063047409,
+          0.12452561408281326,
+          0.10891489684581757
+        ],
+        [
+          0.07895152270793915,
+          0.12754838168621063,
+          0.10975686460733414
+        ],
+        [
+          0.15991897881031036,
+          0.1952078640460968,
+          0.1837119311094284
+        ],
+        [
+          0.0949438065290451,
+          0.1396251767873764,
+          0.12408599257469177
+        ],
+        [
+          0.11425615847110748,
+          0.15005837380886078,
+          0.13648323714733124
+        ],
+        [
+          0.22193869948387146,
+          0.25389283895492554,
+          0.2460974156856537
+        ],
+        [
+          0.11355219036340714,
+          0.16270044445991516,
+          0.14857782423496246
+        ],
+        [
+          0.0926603302359581,
+          0.1240081861615181,
+          0.1039314717054367
+        ],
+        [
+          0.09750887006521225,
+          0.11462578177452087,
+          0.10952369123697281
+        ],
+        [
+          0.07909353077411652,
+          0.11386388540267944,
+          0.10054433345794678
+        ],
+        [
+          0.17733925580978394,
+          0.20293709635734558,
+          0.1952047348022461
+        ],
+        [
+          0.23017315566539764,
+          0.2587945759296417,
+          0.24886099994182587
+        ],
+        [
+          0.27357232570648193,
+          0.3083948493003845,
+          0.30130070447921753
+        ],
+        [
+          0.21505534648895264,
+          0.24452167749404907,
+          0.23775288462638855
+        ],
+        [
+          0.2780258357524872,
+          0.3011641204357147,
+          0.2989947199821472
+        ],
+        [
+          0.28523656725883484,
+          0.3175588548183441,
+          0.31178367137908936
+        ],
+        [
+          0.37726131081581116,
+          0.41528430581092834,
+          0.4106660783290863
+        ],
+        [
+          0.27327457070350647,
+          0.29975247383117676,
+          0.29536721110343933
+        ]
+      ],
+      "object_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "feature_cache": "features_ShapeNetAD_shelf0_SMALL.npz",
+      "score_cache": "scores_ShapeNetAD_shelf0_SMALL.npz",
+      "original_point_metric_crosscheck_tolerance": 2e-06
+    }
+  },
+  "aggregation": "Exhaustive reference subsets averaged within category; unweighted category mean.",
+  "point_metrics": "Original archived B1 P-AUROC/AP; unchanged.",
+  "object_metrics": "Archived R2 O-AUROC on COMMON50; cap1 and shelf0 use the identical maximum projected-point readout from unchanged cached descriptors.",
+  "cap1_derivation": "New CPU fp32 Gaussian projection, no training or feature extraction. P-AUROC cross-check within 2e-6 of original B1 for all three scorers.",
+  "n_query_scans": {
+    "original40": 1295,
+    "COMMON50": 1638,
+    "all52": 1702
+  },
+  "published_comparison": "Published COSSAD 52-category result retains its source protocol; the SESAD cache has 1702 query scans. This is not a paired full-pipeline reproduction.",
+  "higher_budget_summary": [
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 3,
+      "method": "nearest-exemplar",
+      "n_categories": 50,
+      "P_AUROC": 0.9802859186937194,
+      "P_AP": 0.645753243473014,
+      "O_AUROC": 0.9389533439037444
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 3,
+      "method": "mean",
+      "n_categories": 50,
+      "P_AUROC": 0.9723144638664335,
+      "P_AP": 0.6340215942103938,
+      "O_AUROC": 0.9218091430710996
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 3,
+      "method": "centroid",
+      "n_categories": 50,
+      "P_AUROC": 0.9767497571721495,
+      "P_AP": 0.6412899960231333,
+      "O_AUROC": 0.9279821613709199
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 3,
+      "method": "effect",
+      "n_categories": 50,
+      "P_AUROC": 0.9685025662123973,
+      "P_AP": 0.4798775128578169,
+      "O_AUROC": 0.9105447059873665
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 4,
+      "method": "nearest-exemplar",
+      "n_categories": 50,
+      "P_AUROC": 0.981916328332512,
+      "P_AP": 0.6561037946366064,
+      "O_AUROC": 0.9489482743927824
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 4,
+      "method": "mean",
+      "n_categories": 50,
+      "P_AUROC": 0.9728601076222148,
+      "P_AP": 0.6381505901447754,
+      "O_AUROC": 0.9233167751859972
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 4,
+      "method": "centroid",
+      "n_categories": 50,
+      "P_AUROC": 0.9776918832964153,
+      "P_AP": 0.646070735662458,
+      "O_AUROC": 0.9294638913379188
+    },
+    {
+      "cohort": "COMMON50_eligible",
+      "T": 4,
+      "method": "effect",
+      "n_categories": 50,
+      "P_AUROC": 0.9714489259784562,
+      "P_AP": 0.5041223642109502,
+      "O_AUROC": 0.9276877089941163
+    }
+  ]
+}

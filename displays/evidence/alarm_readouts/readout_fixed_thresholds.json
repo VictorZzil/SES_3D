@@ -1,0 +1,188 @@
+{
+  "COSSAD_NATIVE": {
+    "airplane": {
+      "threshold": 330.32741554975865,
+      "accepted_calibration": 22,
+      "calibration_alarms": 1
+    },
+    "candybar": {
+      "threshold": 46.87433114592085,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "car": {
+      "threshold": 228.41853155210092,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "chicken": {
+      "threshold": 356.6250924458957,
+      "accepted_calibration": 26,
+      "calibration_alarms": 1
+    },
+    "diamond": {
+      "threshold": 331.8592175976033,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "duck": {
+      "threshold": 330.58704944780413,
+      "accepted_calibration": 18,
+      "calibration_alarms": 0
+    },
+    "fish": {
+      "threshold": 116.33724246208239,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "gemstone": {
+      "threshold": 101.85449576702078,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "seahorse": {
+      "threshold": 27.000314077456206,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "shell": {
+      "threshold": 48.06222032837572,
+      "accepted_calibration": 22,
+      "calibration_alarms": 1
+    },
+    "starfish": {
+      "threshold": 63.94798347581368,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "toffees": {
+      "threshold": 179.50033676063092,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    }
+  },
+  "POINT_MAX": {
+    "airplane": {
+      "threshold": 0.21964910626411438,
+      "accepted_calibration": 22,
+      "calibration_alarms": 1
+    },
+    "candybar": {
+      "threshold": 0.2285197675228119,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "car": {
+      "threshold": 0.17678426206111908,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "chicken": {
+      "threshold": 0.21882560849189758,
+      "accepted_calibration": 26,
+      "calibration_alarms": 1
+    },
+    "diamond": {
+      "threshold": 0.12563404440879822,
+      "accepted_calibration": 24,
+      "calibration_alarms": 0
+    },
+    "duck": {
+      "threshold": 0.20209568738937378,
+      "accepted_calibration": 18,
+      "calibration_alarms": 0
+    },
+    "fish": {
+      "threshold": 0.10548995435237885,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "gemstone": {
+      "threshold": 0.21124708652496338,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "seahorse": {
+      "threshold": 0.19525615870952606,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "shell": {
+      "threshold": 0.16045114398002625,
+      "accepted_calibration": 22,
+      "calibration_alarms": 1
+    },
+    "starfish": {
+      "threshold": 0.21526269614696503,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "toffees": {
+      "threshold": 0.2523168921470642,
+      "accepted_calibration": 24,
+      "calibration_alarms": 0
+    }
+  },
+  "SPATIAL_EVIDENCE": {
+    "airplane": {
+      "threshold": 1.0315918719731263,
+      "accepted_calibration": 22,
+      "calibration_alarms": 1
+    },
+    "candybar": {
+      "threshold": 1.0074789526328274,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "car": {
+      "threshold": 0.8308319526834566,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "chicken": {
+      "threshold": 1.4366953868466776,
+      "accepted_calibration": 26,
+      "calibration_alarms": 1
+    },
+    "diamond": {
+      "threshold": 1.2017423976448334,
+      "accepted_calibration": 24,
+      "calibration_alarms": 0
+    },
+    "duck": {
+      "threshold": 1.0891816745204155,
+      "accepted_calibration": 18,
+      "calibration_alarms": 0
+    },
+    "fish": {
+      "threshold": 0.6738760220475364,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "gemstone": {
+      "threshold": 0.9430306939117915,
+      "accepted_calibration": 24,
+      "calibration_alarms": 0
+    },
+    "seahorse": {
+      "threshold": 0.9528816388356164,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "shell": {
+      "threshold": 1.2209793453344768,
+      "accepted_calibration": 22,
+      "calibration_alarms": 1
+    },
+    "starfish": {
+      "threshold": 1.736110555281597,
+      "accepted_calibration": 24,
+      "calibration_alarms": 1
+    },
+    "toffees": {
+      "threshold": 1.4940102422196895,
+      "accepted_calibration": 24,
+      "calibration_alarms": 0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "split_sha256": "217d6bfadacff9c8c637f9f40181ab4a3b8acb71669a36f1ab147433063f94a5",
+  "scores_sha256": "62973c496b669b551159cdc650fa93e121358bdaf0d4cdfd366e190e2f67bc68",
+  "salt": "SESAD-TASE-v26-20261117-alarm-repeat-v1",
+  "repeats": 200,
+  "readouts": [
+    "COSSAD_NATIVE",
+    "POINT_MAX",
+    "SPATIAL_EVIDENCE"
+  ],
+  "threshold": "Per class and readout, ascending rank n-floor(n/20) from accepted calibration normals; alarm if strictly above.",
+  "split": "Within each class, rank normal-only object groups by salted SHA-256 and hold out the first floor(n/2) for calibration. Keep all scan variants together and all groups with defects in evaluation.",
+  "summary": "Scan-micro rates per split, equally averaged across repeated splits; q10/q90 are descriptive quantiles across reused objects, not uncertainty intervals."
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "category": "ashtray0",
+    "slot": 414,
+    "selection": "Defect ranks higher",
+    "measurements": [
+      {
+        "sample": "ashapenet_ashtray0_14_good.npz",
+        "slot": 414,
+        "center_index": 47165,
+        "point_label": 0,
+        "pair": [
+          "ashapenet_ashtray0_0_good.npz",
+          "ashapenet_ashtray0_1_good.npz"
+        ],
+        "reference_distance": 1.1301159759882027,
+        "query_distances": [
+          0.20226102379899535,
+          0.7875182814743595
+        ],
+        "scores": {
+          "SESAD": 0.20226102379899535,
+          "MEAN": 0.49488965263667745
+        }
+      },
+      {
+        "sample": "ashapenet_ashtray0_13_concavity.npz",
+        "slot": 414,
+        "center_index": 31526,
+        "point_label": 1,
+        "pair": [
+          "ashapenet_ashtray0_0_good.npz",
+          "ashapenet_ashtray0_1_good.npz"
+        ],
+        "reference_distance": 1.1301159759882027,
+        "query_distances": [
+          1.522931388369291,
+          0.38964490372979066
+        ],
+        "scores": {
+          "SESAD": 0.38964490372979066,
+          "MEAN": 0.9562881460495408
+        }
+      }
+    ]
+  },
+  {
+    "category": "bowl0",
+    "slot": 365,
+    "selection": "Normal center ranks higher",
+    "measurements": [
+      {
+        "sample": "ashapenet_bowl0_22_good.npz",
+        "slot": 365,
+        "center_index": 90009,
+        "point_label": 0,
+        "pair": [
+          "ashapenet_bowl0_0_good.npz",
+          "ashapenet_bowl0_1_good.npz"
+        ],
+        "reference_distance": 1.5524531034463855,
+        "query_distances": [
+          0.9296040508130043,
+          0.7627743078788225
+        ],
+        "scores": {
+          "SESAD": 0.7627743078788225,
+          "MEAN": 0.8461891793459134
+        }
+      },
+      {
+        "sample": "ashapenet_bowl0_1_bulge.npz",
+        "slot": 365,
+        "center_index": 7509,
+        "point_label": 1,
+        "pair": [
+          "ashapenet_bowl0_0_good.npz",
+          "ashapenet_bowl0_1_good.npz"
+        ],
+        "reference_distance": 1.5524531034463855,
+        "query_distances": [
+          0.539745406300673,
+          0.7395427637505452
+        ],
+        "scores": {
+          "SESAD": 0.539745406300673,
+          "MEAN": 0.6396440850256091
+        }
+      }
+    ]
+  }
+]

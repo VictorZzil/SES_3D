@@ -1,0 +1,9 @@
+{
+  "accepted_scan_ids_labels_and_variants_checked": 1172,
+  "independently_recomputed_category_strata": {
+    "uncropped": 24,
+    "cropped": 24
+  },
+  "ap_tolerance_against_sklearn": 1e-12,
+  "cross_object_comparison_counts_match": true
+}

@@ -1,0 +1,2596 @@
+{
+  "verified_accepted_scans": 1172,
+  "exploratory_benchmark_reanalysis": true,
+  "tolerance": 1e-12,
+  "negative_sources": "accepted normal scans only",
+  "positive_sources": "annotated defect centers from accepted anomaly scans",
+  "pairing": "distinct source objects at the exact same category slot with an identical reference bank, positive pooled variance for both queries; copies excluded; uncropped and cropped evaluated separately",
+  "center_ap": "AP on labeled query centers in slots where both labels are represented; no point projection",
+  "effect_numerator": "absolute difference between the query-reference mean and the reference-pair mean",
+  "counts": [
+    {
+      "scope": "cropped",
+      "actual_refs": 0,
+      "pairs": 0,
+      "both_right": 0,
+      "corrected_by_sesad": 0,
+      "reversed_by_sesad": 0,
+      "both_reversed": 0,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 0
+    },
+    {
+      "scope": "cropped",
+      "actual_refs": 1,
+      "pairs": 0,
+      "both_right": 0,
+      "corrected_by_sesad": 0,
+      "reversed_by_sesad": 0,
+      "both_reversed": 0,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 0
+    },
+    {
+      "scope": "cropped",
+      "actual_refs": 2,
+      "pairs": 0,
+      "both_right": 0,
+      "corrected_by_sesad": 0,
+      "reversed_by_sesad": 0,
+      "both_reversed": 0,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 0
+    },
+    {
+      "scope": "cropped",
+      "actual_refs": 3,
+      "pairs": 6534,
+      "both_right": 5496,
+      "corrected_by_sesad": 652,
+      "reversed_by_sesad": 137,
+      "both_reversed": 249,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 588
+    },
+    {
+      "scope": "cropped",
+      "actual_refs": 4,
+      "pairs": 29112,
+      "both_right": 28371,
+      "corrected_by_sesad": 357,
+      "reversed_by_sesad": 96,
+      "both_reversed": 288,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 268
+    },
+    {
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "pairs": 0,
+      "both_right": 0,
+      "corrected_by_sesad": 0,
+      "reversed_by_sesad": 0,
+      "both_reversed": 0,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 0
+    },
+    {
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "pairs": 0,
+      "both_right": 0,
+      "corrected_by_sesad": 0,
+      "reversed_by_sesad": 0,
+      "both_reversed": 0,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 0
+    },
+    {
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "pairs": 0,
+      "both_right": 0,
+      "corrected_by_sesad": 0,
+      "reversed_by_sesad": 0,
+      "both_reversed": 0,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 0
+    },
+    {
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "pairs": 7940,
+      "both_right": 6704,
+      "corrected_by_sesad": 757,
+      "reversed_by_sesad": 159,
+      "both_reversed": 320,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 688
+    },
+    {
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "pairs": 29310,
+      "both_right": 28575,
+      "corrected_by_sesad": 352,
+      "reversed_by_sesad": 91,
+      "both_reversed": 292,
+      "tied": 0,
+      "corrected_with_smaller_effect_numerator": 284
+    }
+  ],
+  "by_category": [
+    {
+      "category": "airplane",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 46,
+      "reference_slots": 1000,
+      "query_centers": 18422,
+      "labeled_defect_centers": 115,
+      "slots_with_both_labels": 97,
+      "pair_counts": {
+        "both_right": 1311,
+        "corrected_by_sesad": 27,
+        "reversed_by_sesad": 7,
+        "both_reversed": 15,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 27
+      },
+      "distinct_scored_centers": 1238,
+      "center_ap": {
+        "SESAD": 0.9096560767462267,
+        "EFF": 0.9079435105205746
+      }
+    },
+    {
+      "category": "airplane",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 44,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 44,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 44,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 44,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "airplane",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 44,
+      "reference_slots": 1000,
+      "query_centers": 17233,
+      "labeled_defect_centers": 117,
+      "slots_with_both_labels": 104,
+      "pair_counts": {
+        "both_right": 1119,
+        "corrected_by_sesad": 22,
+        "reversed_by_sesad": 18,
+        "both_reversed": 30,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 20
+      },
+      "distinct_scored_centers": 1159,
+      "center_ap": {
+        "SESAD": 0.8641258242016688,
+        "EFF": 0.8597388472373163
+      }
+    },
+    {
+      "category": "candybar",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 22620,
+      "labeled_defect_centers": 204,
+      "slots_with_both_labels": 165,
+      "pair_counts": {
+        "both_right": 2496,
+        "corrected_by_sesad": 1,
+        "reversed_by_sesad": 13,
+        "both_reversed": 4,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 1
+      },
+      "distinct_scored_centers": 2226,
+      "center_ap": {
+        "SESAD": 0.9802868708502102,
+        "EFF": 0.9765711956856783
+      }
+    },
+    {
+      "category": "candybar",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "candybar",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 20522,
+      "labeled_defect_centers": 203,
+      "slots_with_both_labels": 160,
+      "pair_counts": {
+        "both_right": 2470,
+        "corrected_by_sesad": 9,
+        "reversed_by_sesad": 1,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 8
+      },
+      "distinct_scored_centers": 2152,
+      "center_ap": {
+        "SESAD": 0.9845615142406563,
+        "EFF": 0.9774346076292559
+      }
+    },
+    {
+      "category": "car",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 20444,
+      "labeled_defect_centers": 183,
+      "slots_with_both_labels": 134,
+      "pair_counts": {
+        "both_right": 2638,
+        "corrected_by_sesad": 30,
+        "reversed_by_sesad": 12,
+        "both_reversed": 73,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 6
+      },
+      "distinct_scored_centers": 2081,
+      "center_ap": {
+        "SESAD": 0.80883745676076,
+        "EFF": 0.7350696915748075
+      }
+    },
+    {
+      "category": "car",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "car",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 20365,
+      "labeled_defect_centers": 185,
+      "slots_with_both_labels": 136,
+      "pair_counts": {
+        "both_right": 2588,
+        "corrected_by_sesad": 34,
+        "reversed_by_sesad": 17,
+        "both_reversed": 74,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 5
+      },
+      "distinct_scored_centers": 2057,
+      "center_ap": {
+        "SESAD": 0.7945608130957453,
+        "EFF": 0.7241015400200417
+      }
+    },
+    {
+      "category": "chicken",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 53,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 53,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 53,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 53,
+      "reference_slots": 1000,
+      "query_centers": 19680,
+      "labeled_defect_centers": 492,
+      "slots_with_both_labels": 233,
+      "pair_counts": {
+        "both_right": 4650,
+        "corrected_by_sesad": 568,
+        "reversed_by_sesad": 153,
+        "both_reversed": 303,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 512
+      },
+      "distinct_scored_centers": 3075,
+      "center_ap": {
+        "SESAD": 0.7336528647618482,
+        "EFF": 0.7024134279329823
+      }
+    },
+    {
+      "category": "chicken",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 53,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 52,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 52,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 52,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "chicken",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 52,
+      "reference_slots": 1000,
+      "query_centers": 17422,
+      "labeled_defect_centers": 401,
+      "slots_with_both_labels": 204,
+      "pair_counts": {
+        "both_right": 3563,
+        "corrected_by_sesad": 472,
+        "reversed_by_sesad": 133,
+        "both_reversed": 238,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 424
+      },
+      "distinct_scored_centers": 2565,
+      "center_ap": {
+        "SESAD": 0.7235394537302022,
+        "EFF": 0.6979336931722914
+      }
+    },
+    {
+      "category": "chicken",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 52,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 18712,
+      "labeled_defect_centers": 431,
+      "slots_with_both_labels": 315,
+      "pair_counts": {
+        "both_right": 5180,
+        "corrected_by_sesad": 27,
+        "reversed_by_sesad": 0,
+        "both_reversed": 3,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 22
+      },
+      "distinct_scored_centers": 4219,
+      "center_ap": {
+        "SESAD": 0.9900191091073421,
+        "EFF": 0.9658973597070334
+      }
+    },
+    {
+      "category": "diamond",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "diamond",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 49,
+      "reference_slots": 1000,
+      "query_centers": 17647,
+      "labeled_defect_centers": 452,
+      "slots_with_both_labels": 313,
+      "pair_counts": {
+        "both_right": 5337,
+        "corrected_by_sesad": 31,
+        "reversed_by_sesad": 4,
+        "both_reversed": 8,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 31
+      },
+      "distinct_scored_centers": 4149,
+      "center_ap": {
+        "SESAD": 0.9813090403670355,
+        "EFF": 0.9642069011618534
+      }
+    },
+    {
+      "category": "duck",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 42,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 42,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 42,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 42,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 42,
+      "reference_slots": 1000,
+      "query_centers": 13935,
+      "labeled_defect_centers": 96,
+      "slots_with_both_labels": 80,
+      "pair_counts": {
+        "both_right": 892,
+        "corrected_by_sesad": 26,
+        "reversed_by_sesad": 5,
+        "both_reversed": 23,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 26
+      },
+      "distinct_scored_centers": 885,
+      "center_ap": {
+        "SESAD": 0.9599256115555732,
+        "EFF": 0.8478166447744514
+      }
+    },
+    {
+      "category": "duck",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 41,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 41,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 41,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 41,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "duck",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 41,
+      "reference_slots": 1000,
+      "query_centers": 12982,
+      "labeled_defect_centers": 79,
+      "slots_with_both_labels": 72,
+      "pair_counts": {
+        "both_right": 650,
+        "corrected_by_sesad": 26,
+        "reversed_by_sesad": 0,
+        "both_reversed": 12,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 26
+      },
+      "distinct_scored_centers": 704,
+      "center_ap": {
+        "SESAD": 0.9630228367022488,
+        "EFF": 0.8564387070232107
+      }
+    },
+    {
+      "category": "fish",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 21653,
+      "labeled_defect_centers": 222,
+      "slots_with_both_labels": 179,
+      "pair_counts": {
+        "both_right": 2685,
+        "corrected_by_sesad": 22,
+        "reversed_by_sesad": 2,
+        "both_reversed": 8,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 21
+      },
+      "distinct_scored_centers": 2431,
+      "center_ap": {
+        "SESAD": 0.936352726026904,
+        "EFF": 0.9153462988137072
+      }
+    },
+    {
+      "category": "fish",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "fish",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 21490,
+      "labeled_defect_centers": 218,
+      "slots_with_both_labels": 182,
+      "pair_counts": {
+        "both_right": 2637,
+        "corrected_by_sesad": 14,
+        "reversed_by_sesad": 3,
+        "both_reversed": 6,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 12
+      },
+      "distinct_scored_centers": 2450,
+      "center_ap": {
+        "SESAD": 0.9318956699919277,
+        "EFF": 0.9190432686377163
+      }
+    },
+    {
+      "category": "gemstone",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 48,
+      "reference_slots": 1000,
+      "query_centers": 17506,
+      "labeled_defect_centers": 151,
+      "slots_with_both_labels": 127,
+      "pair_counts": {
+        "both_right": 1179,
+        "corrected_by_sesad": 37,
+        "reversed_by_sesad": 0,
+        "both_reversed": 9,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 34
+      },
+      "distinct_scored_centers": 1213,
+      "center_ap": {
+        "SESAD": 0.9478439113803832,
+        "EFF": 0.8773490919419629
+      }
+    },
+    {
+      "category": "gemstone",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 46,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "gemstone",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 46,
+      "reference_slots": 1000,
+      "query_centers": 16279,
+      "labeled_defect_centers": 140,
+      "slots_with_both_labels": 120,
+      "pair_counts": {
+        "both_right": 1038,
+        "corrected_by_sesad": 19,
+        "reversed_by_sesad": 2,
+        "both_reversed": 11,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 16
+      },
+      "distinct_scored_centers": 1077,
+      "center_ap": {
+        "SESAD": 0.9417208805584437,
+        "EFF": 0.8848761468100558
+      }
+    },
+    {
+      "category": "seahorse",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 21643,
+      "labeled_defect_centers": 421,
+      "slots_with_both_labels": 330,
+      "pair_counts": {
+        "both_right": 5058,
+        "corrected_by_sesad": 101,
+        "reversed_by_sesad": 30,
+        "both_reversed": 67,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 90
+      },
+      "distinct_scored_centers": 4536,
+      "center_ap": {
+        "SESAD": 0.8806695677368299,
+        "EFF": 0.875741228540448
+      }
+    },
+    {
+      "category": "seahorse",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "seahorse",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 49,
+      "reference_slots": 1000,
+      "query_centers": 21088,
+      "labeled_defect_centers": 416,
+      "slots_with_both_labels": 333,
+      "pair_counts": {
+        "both_right": 4998,
+        "corrected_by_sesad": 109,
+        "reversed_by_sesad": 24,
+        "both_reversed": 56,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 97
+      },
+      "distinct_scored_centers": 4568,
+      "center_ap": {
+        "SESAD": 0.8808226879852532,
+        "EFF": 0.8746400099522111
+      }
+    },
+    {
+      "category": "shell",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 48,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 48,
+      "reference_slots": 1000,
+      "query_centers": 22551,
+      "labeled_defect_centers": 214,
+      "slots_with_both_labels": 162,
+      "pair_counts": {
+        "both_right": 2463,
+        "corrected_by_sesad": 43,
+        "reversed_by_sesad": 7,
+        "both_reversed": 47,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 32
+      },
+      "distinct_scored_centers": 2173,
+      "center_ap": {
+        "SESAD": 0.8233728390566635,
+        "EFF": 0.7262199882804086
+      }
+    },
+    {
+      "category": "shell",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "shell",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 49,
+      "reference_slots": 1000,
+      "query_centers": 22862,
+      "labeled_defect_centers": 212,
+      "slots_with_both_labels": 159,
+      "pair_counts": {
+        "both_right": 2555,
+        "corrected_by_sesad": 43,
+        "reversed_by_sesad": 5,
+        "both_reversed": 43,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 27
+      },
+      "distinct_scored_centers": 2208,
+      "center_ap": {
+        "SESAD": 0.8650982050081262,
+        "EFF": 0.7459137938553316
+      }
+    },
+    {
+      "category": "starfish",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 21141,
+      "labeled_defect_centers": 396,
+      "slots_with_both_labels": 296,
+      "pair_counts": {
+        "both_right": 4673,
+        "corrected_by_sesad": 38,
+        "reversed_by_sesad": 15,
+        "both_reversed": 43,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 25
+      },
+      "distinct_scored_centers": 3959,
+      "center_ap": {
+        "SESAD": 0.8692418284153709,
+        "EFF": 0.8983841107812481
+      }
+    },
+    {
+      "category": "starfish",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "starfish",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 21036,
+      "labeled_defect_centers": 418,
+      "slots_with_both_labels": 308,
+      "pair_counts": {
+        "both_right": 4979,
+        "corrected_by_sesad": 50,
+        "reversed_by_sesad": 22,
+        "both_reversed": 48,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 26
+      },
+      "distinct_scored_centers": 4161,
+      "center_ap": {
+        "SESAD": 0.8513777395757802,
+        "EFF": 0.8818178714425966
+      }
+    },
+    {
+      "category": "toffees",
+      "scope": "uncropped",
+      "actual_refs": 0,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "uncropped",
+      "actual_refs": 1,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "uncropped",
+      "actual_refs": 2,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "uncropped",
+      "actual_refs": 3,
+      "scans": 50,
+      "reference_slots": 1000,
+      "query_centers": 18679,
+      "labeled_defect_centers": 182,
+      "slots_with_both_labels": 140,
+      "pair_counts": {
+        "both_right": 2054,
+        "corrected_by_sesad": 189,
+        "reversed_by_sesad": 6,
+        "both_reversed": 17,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 176
+      },
+      "distinct_scored_centers": 1934,
+      "center_ap": {
+        "SESAD": 0.8866627597688344,
+        "EFF": 0.8251085542666341
+      }
+    },
+    {
+      "category": "toffees",
+      "scope": "uncropped",
+      "actual_refs": 4,
+      "scans": 50,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "cropped",
+      "actual_refs": 0,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "cropped",
+      "actual_refs": 1,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "cropped",
+      "actual_refs": 2,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    },
+    {
+      "category": "toffees",
+      "scope": "cropped",
+      "actual_refs": 3,
+      "scans": 49,
+      "reference_slots": 1000,
+      "query_centers": 18298,
+      "labeled_defect_centers": 182,
+      "slots_with_both_labels": 124,
+      "pair_counts": {
+        "both_right": 1933,
+        "corrected_by_sesad": 180,
+        "reversed_by_sesad": 4,
+        "both_reversed": 11,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 164
+      },
+      "distinct_scored_centers": 1654,
+      "center_ap": {
+        "SESAD": 0.9086736300972803,
+        "EFF": 0.8468732291808946
+      }
+    },
+    {
+      "category": "toffees",
+      "scope": "cropped",
+      "actual_refs": 4,
+      "scans": 49,
+      "reference_slots": 0,
+      "query_centers": 0,
+      "labeled_defect_centers": 0,
+      "slots_with_both_labels": 0,
+      "pair_counts": {
+        "both_right": 0,
+        "corrected_by_sesad": 0,
+        "reversed_by_sesad": 0,
+        "both_reversed": 0,
+        "tied": 0,
+        "corrected_with_smaller_effect_numerator": 0
+      },
+      "distinct_scored_centers": 0,
+      "center_ap": null
+    }
+  ]
+}
